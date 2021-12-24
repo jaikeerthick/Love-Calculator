@@ -90,8 +90,5 @@ class LoveFragment : Fragment(R.layout.fragment_love) {
 
     }
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-        viewModel
-    }
+  
 }
