@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loveFragment">
+
+    <fragment
+        android:id="@+id/loveFragment"
+        android:name="com.jaikeerthick.lovecalculator.ui.view.LoveFragment"
+        android:label="LoveFragment" >
+        <action
+            android:id="@+id/action_loveFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.jaikeerthick.lovecalculator.ui.view.ResultFragment"
+        android:label="ResultFragment" />
+</navigation>
