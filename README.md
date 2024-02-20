@@ -11,7 +11,7 @@ Don't make your relationship complicated after seeing the result. This app is bu
 
 - API : [Love Calculator](https://rapidapi.com/ajith/api/love-calculator/)
 - Architecture: MVVM
-- DI : Dagger-Hilt
+- DI : Hilt
 
 ## 💘 About Love Calculator API
 
